@@ -1,0 +1,28 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+.item1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+h2.navbar-heading {
+  margin-left: -18%;
+}
+.item2 {
+  margin-right: 12%;
+}
+h3:hover {
+  border-bottom: black solid 2px;
+}
+h2.navbar-heading {
+  transition: all 0.2s ease-in-out;
+}
+h2.navbar-heading:hover {
+  transform: scale(1.1);
+}
